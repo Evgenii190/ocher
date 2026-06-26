@@ -1,0 +1,33 @@
+node_modules
+.next
+out
+build
+.git
+.gitignore
+.vercel
+.DS_Store
+
+# env-файлы не попадают в образ — секреты передаются через runtime env
+.env
+.env.*
+!.env.example
+
+# docker / ci
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# логи и отладка
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# редакторы
+.vscode
+.idea
+*.tsbuildinfo
+next-env.d.ts
+
+# документация и заметки
+README.md

@@ -1,0 +1,10 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Нет изображения">
+  <rect width="320" height="240" fill="#F2F4F6"/>
+  <g opacity="0.9">
+    <rect x="118" y="78" width="84" height="84" rx="4" fill="#FFFFFF" stroke="#C7D0D6" stroke-width="2"/>
+    <circle cx="146" cy="104" r="9" fill="#D7536A"/>
+    <path d="M126 152L150 124L168 144L182 130L194 152H126Z" fill="#273A5B"/>
+  </g>
+  <rect x="100" y="180" width="120" height="6" rx="3" fill="#D3DBE0"/>
+  <rect x="128" y="194" width="64" height="6" rx="3" fill="#E0E6EA"/>
+</svg>

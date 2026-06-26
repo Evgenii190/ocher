@@ -1,0 +1,954 @@
+{
+  "common": {
+    "home": "Home",
+    "logoAlt": "Logo",
+    "omzAlt": "OMZ",
+    "readMore": "Learn more",
+    "readMoreAboutWorkshop": "About the workshop",
+    "goToCatalog": "Go to catalog",
+    "call": "Call",
+    "all": "all",
+    "loading": "Loading…",
+    "showMore": "Show more",
+    "download": "Download",
+    "clear": "Clear",
+    "from": "from",
+    "to": "to",
+    "parameter": "Parameter",
+    "document": "Document",
+    "noImage": "No image",
+    "factoryAlt": "Factory",
+    "videoProductionAlt": "Production video",
+    "aria": {
+      "breadcrumbs": "Breadcrumbs",
+      "mainNav": "Main navigation",
+      "call": "Call",
+      "writeEmail": "Send email",
+      "search": "Search",
+      "close": "Close",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "prevSlide": "Previous slide",
+      "nextSlide": "Next slide",
+      "slideNav": "Slide navigation",
+      "prevPhoto": "Previous photo",
+      "nextPhoto": "Next photo",
+      "photoN": "Photo {n}",
+      "removeFromCart": "Remove from cart",
+      "decreaseQty": "Decrease quantity",
+      "increaseQty": "Increase quantity",
+      "attachResume": "Attach resume",
+      "removeFile": "Remove file"
+    },
+    "plural": {
+      "product": "{count, plural, one {# item} other {# items}}",
+      "productInCart": "{count, plural, one {# item} other {# items}} in cart"
+    },
+    "units": {
+      "mm": "mm",
+      "cm": "cm",
+      "m": "m",
+      "kg": "kg",
+      "t": "t"
+    },
+    "availability": {
+      "inStock": "In stock",
+      "onOrder": "On order"
+    },
+    "availabilityLabel": "Availability",
+    "article": "SKU:",
+    "priceOnRequest": "Price on request",
+    "priceOnRequestUpper": "PRICE ON REQUEST",
+    "cost": "Price",
+    "addToCart": "Add to cart",
+    "workingHoursShort": "Perm · Mon–Fri 9:00–18:00"
+  },
+  "nav": {
+    "company": {
+      "label": "Company",
+      "ariaLabel": "“Company” section"
+    },
+    "products": {
+      "label": "Products",
+      "ariaLabel": "“Products” section"
+    },
+    "production": {
+      "label": "Production",
+      "ariaLabel": "“Production” section"
+    },
+    "services": {
+      "label": "Services",
+      "ariaLabel": "“Services” section"
+    },
+    "news": "News",
+    "contacts": "Contacts",
+    "catalogParts": "Parts catalog",
+    "goToCatalog": "Go to catalog",
+    "companySections": {
+      "about": {
+        "title": "About",
+        "href": "/about"
+      },
+      "history": "History",
+      "certificates": "Certificates",
+      "partners": "For partners",
+      "vacancies": "Vacancies",
+      "procurement": {
+        "title": "Procurement",
+        "href": "/procurement"
+      },
+      "safetyHotline": "Safety hotline",
+      "education": "Educational organization information",
+      "laborProtection": "Occupational safety"
+    },
+    "productionLinks": {
+      "oilfield": "Oilfield equipment workshop",
+      "metal": "Metal structures workshop",
+      "building": "Building structures workshop"
+    },
+    "servicesLinks": {
+      "pumpRodsRepair": "Pump rod repair",
+      "laserCutting": "Laser metal cutting",
+      "calibratedRound": "Calibrated round production",
+      "laboratoryTesting": "Laboratory testing",
+      "designDocumentation": "Structural documentation development",
+      "delivery": "Delivery"
+    },
+    "megaMenu": {
+      "company": "Company",
+      "production": "Production",
+      "services": "Services"
+    },
+    "mobileMenu": {
+      "title": "Navigation menu",
+      "searchTitle": "Search equipment",
+      "searchSubtitle": "Find products and services",
+      "cart": "Cart",
+      "cartEmpty": "Empty for now",
+      "cartItems": "Items: {count}",
+      "cartAria": "Cart, items: {count}",
+      "cartAriaEmpty": "Cart",
+      "languageTitle": "Site language"
+    },
+    "cartAria": "Cart, items: {count}",
+    "cartAriaEmpty": "Cart"
+  },
+  "footer": {
+    "site": "Site",
+    "catalog": "Product catalog",
+    "contacts": "Contacts",
+    "email": "Email",
+    "emailHint": "Send us emails and your project files — we will be happy to reply",
+    "workingHours": "Working hours",
+    "social": "Message us on social media",
+    "commercial": "For commercial proposals",
+    "copyright": "All rights reserved © 2025. A link to Ocher.ru is required when copying",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "links": {
+      "about": "About",
+      "certificates": "Certificates",
+      "history": "History",
+      "partners": "Partners",
+      "procurement": "Procurement",
+      "vacancies": "Vacancies",
+      "elevator": "Elevator shaft formwork",
+      "wall": "Wall formwork",
+      "floor": "Floor formwork",
+      "clamps": "Clamps",
+      "screw": "Tie screw",
+      "parts": "Formwork accessories"
+    },
+    "socialLabels": {
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "gmail": "Gmail"
+    }
+  },
+  "search": {
+    "placeholder": "Search",
+    "placeholderExtended": "Search equipment, services...",
+    "placeholderEquipment": "Search equipment",
+    "title": "Site search",
+    "description": "Enter a query to search the site",
+    "hints": {
+      "startTyping": "Start typing in the field above to see suggestions",
+      "popular": "Popular searches",
+      "sections": "Site sections"
+    },
+    "popularQueries": {
+      "wallFormwork": "Wall formwork",
+      "clamps": "Clamps",
+      "tieScrew": "Tie screw",
+      "parts": "Accessories"
+    },
+    "siteSections": {
+      "catalog": "Product catalog",
+      "certificates": "Certificates",
+      "history": "Company history",
+      "vacancies": "Vacancies"
+    }
+  },
+  "home": {
+    "hero": {
+      "bgAlt": "Main background image",
+      "titleMobileLine1": "Ocher",
+      "titleMobileLine2": "machine-",
+      "titleMobileLine3": "building",
+      "titleDesktop": "machine-building",
+      "titleSuffix": "plant",
+      "tagline": "Building the future while preserving traditions"
+    },
+    "about": {
+      "title": "About the plant"
+    },
+    "factoryFacts": {
+      "title": "OMZ in numbers and facts",
+      "prev": "Previous fact",
+      "next": "Next fact",
+      "items": {
+        "area": {
+          "title": "45,000 SQ.M.",
+          "description": "Total area of production workshops"
+        },
+        "staff": {
+          "title": "> 800 PEOPLE",
+          "description": "Company staff"
+        },
+        "countries": {
+          "title": "8 COUNTRIES",
+          "description": "Product delivery geography"
+        },
+        "directions": {
+          "title": "4 PRODUCTION LINES",
+          "description": "Key production areas"
+        }
+      }
+    },
+    "factorySlider": {
+      "prev": "Previous workshop",
+      "next": "Next workshop",
+      "nav": "Workshop navigation",
+      "workshops": {
+        "oilfield": {
+          "title": "Oilfield equipment workshop",
+          "alt": "Oilfield equipment workshop"
+        },
+        "metal": {
+          "title": "Metal structures workshop",
+          "alt": "Metal structures workshop"
+        },
+        "building": {
+          "title": "Building structures workshop",
+          "alt": "Building structures workshop"
+        }
+      }
+    },
+    "catalog": {
+      "titleLine1": "catalog",
+      "titleLine2": "products",
+      "scrollBack": "Scroll categories back",
+      "scrollForward": "Scroll categories forward",
+      "prevSubcategory": "Previous subcategory",
+      "nextSubcategory": "Next subcategory"
+    },
+    "partners": {
+      "title": "our partners",
+      "prev": "Previous partner",
+      "next": "Next partner"
+    },
+    "pressCenter": {
+      "title": "News",
+      "allNews": "all news"
+    },
+    "deliveryGeography": {
+      "title": "delivery geography",
+      "mapAria": "OMZ delivery countries map",
+      "regionsTitle": "Countries and regions where OMZ is present",
+      "countriesPanelAria": "Delivery countries",
+      "countriesHeading": "DELIVERY COUNTRIES",
+      "stats": {
+        "countries": [
+          "COUNTRIES",
+          "DELIVERIES"
+        ],
+        "regions": [
+          "REGIONS",
+          "PRESENCE"
+        ],
+        "customers": [
+          "INDUSTRIAL",
+          "CUSTOMERS"
+        ]
+      },
+      "description": {
+        "line1": "OMZ supplies equipment and components for industrial enterprises",
+        "line2": "in Russia and abroad, providing stable deliveries and technical support."
+      },
+      "countries": {
+        "russia": "Russia",
+        "kazakhstan": "Kazakhstan",
+        "belarus": "Belarus",
+        "india": "India",
+        "brazil": "Brazil",
+        "argentina": "Argentina",
+        "venezuela": "Venezuela",
+        "usa": "USA"
+      }
+    }
+  },
+  "catalog": {
+    "title": "Catalog",
+    "titleFull": "product catalog",
+    "emptySeed": "The catalog is empty. Run npm run seed to populate data",
+    "notFoundSearch": "Nothing found for your query",
+    "notFoundFilters": "Nothing found for the selected filters",
+    "allCatalog": "All catalog",
+    "selectCategory": "Select a category",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "goTo": "Go",
+    "characteristics": "Specifications",
+    "resetFilters": "Reset filters",
+    "sort": {
+      "label": "Sort",
+      "popularity": "By popularity",
+      "titleAsc": "Alphabetically (A–Z)",
+      "titleDesc": "Alphabetically (Z–A)",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low"
+    },
+    "pagination": {
+      "showMore": "Show more",
+      "aria": "Catalog pagination",
+      "prev": "Previous page",
+      "next": "Next page"
+    },
+    "product": {
+      "tabs": {
+        "specs": "Specifications",
+        "description": "Description",
+        "docs": "Documentation"
+      },
+      "specsEmpty": "No specifications provided.",
+      "descriptionEmpty": "Product description has not been added yet.",
+      "documents": {
+        "fallback": "Certificates and technical documentation are available in the certificates section or on request from a manager.",
+        "goToCertificates": "Go to certificates"
+      },
+      "promo": {
+        "lifetime": "Lifetime service life",
+        "lifetimeLink": "on all accessories",
+        "buyParts": "buy accessories",
+        "salesOffice": "at the sales office",
+        "questions": "Have questions?",
+        "consult": "we will advise"
+      },
+      "goToCatalogAria": "{title} — go to catalog"
+    },
+    "categoryCard": {
+      "goToCatalog": "Go to catalog"
+    }
+  },
+  "cart": {
+    "breadcrumb": "Cart",
+    "title": "cart",
+    "titleOrderCompleted": "order placed",
+    "eyebrowCheckout": "checkout",
+    "eyebrowDone": "done",
+    "updating": "Updating items",
+    "discount": "Discount amount",
+    "total": "Total:",
+    "onRequestNote": "Some items are priced on request. A manager will confirm their cost when processing the order.",
+    "empty": {
+      "eyebrow": "empty for now",
+      "title": "no items in cart",
+      "description": "Choose equipment in the catalog, add items, and place an order online or with a manager",
+      "perks": {
+        "warranty": "Warranty on parts",
+        "delivery": "Delivery across Russia",
+        "manager": "Manager assistance with orders"
+      }
+    },
+    "checkout": {
+      "contactTitle": "Enter contact details",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "address": "Delivery address",
+      "addressPlaceholder": "Delivery address",
+      "comment": "Order comment",
+      "commentPlaceholder": "Order comment",
+      "paymentTitle": "Select a payment method",
+      "payment": {
+        "cardOffice": "Bank card at the office",
+        "cashStore": "Cash at the store"
+      },
+      "submit": "Place order",
+      "submitting": "Processing…",
+      "emptyCart": "Cart is empty"
+    },
+    "success": {
+      "eyebrow": "thank you for your order",
+      "title": "order placed",
+      "description": "Your order has been received. A manager will contact you to confirm and clarify details."
+    }
+  },
+  "products": {
+    "breadcrumb": "Products",
+    "intro": "JSC Ocher Machine-Building Plant specializes in manufacturing equipment and components for key industries in oilfield equipment and metal structures. The plant delivers products across Russia, CIS countries, and abroad, offering solutions that meet international quality standards.",
+    "outro": "Ocher Machine-Building Plant manufactures products according to GOST standards. All products undergo multiple quality checks. Each item helps improve efficiency and safety at production sites.",
+    "sections": {
+      "oilfield": {
+        "title": "Oilfield equipment",
+        "lead": "OMZ provides comprehensive solutions for oil production equipment manufacturing:",
+        "items": [
+          "Pump rods and couplings: the foundation for reliable pump equipment operation;",
+          "Centralizers and auto-couplers: ensure proper assembly and operation of all components;",
+          "Seals and rod rotators: effectively protect and control rod movement."
+        ]
+      },
+      "metalwork": {
+        "title": "Metal structures",
+        "lead": "We manufacture metal structures used in a wide range of applications:",
+        "items": [
+          "Structures for buildings and facilities: from small elements to large-scale projects;",
+          "Supports and frames for pipelines: essential for infrastructure safety and durability;",
+          "Supports for construction and reconstruction of road sections;",
+          "Tanks and reservoirs."
+        ]
+      },
+      "formwork": {
+        "title": "Formwork accessories",
+        "lead": "Formwork accessories manufactured by JSC Ocher Machine-Building Plant meet high quality and durability standards.",
+        "items": [
+          "End anchors and tie screws: create strong connections between formwork elements, improving overall system reliability;",
+          "Three-wing nuts, wedge and rack locks: strengthen connections between structural components, ensuring stability and reliability during use;",
+          "Corner panels and reinforced univilkas for props: increase stability and strength of formwork structures for long-term use;",
+          "Two-level braces and stripping corners;",
+          "Zero corner and leveling beam."
+        ]
+      }
+    }
+  },
+  "about": {
+    "breadcrumb": "About",
+    "hero": {
+      "title": "ABOUT OMZ",
+      "tagline": "JSC Ocher Machine-Building Plant — more than two and a half centuries of industrial history and modern production technologies",
+      "bgAlt": "Background image of the About page"
+    },
+    "intro": {
+      "imageAlt": "Production capacity of JSC OMZ",
+      "leadBefore": "JSC Ocher Machine-Building Plant",
+      "leadAfter": " — one of the oldest industrial enterprises in the Urals, focused on foreign economic activity for trading, construction, and oilfield organizations. We support small, medium, and large businesses through reliable production of metal structures, oilfield equipment, and components.",
+      "column2": "Specialists at Ocher Machine-Building Plant are always ready to study and solve tasks of any complexity. They closely monitor innovative developments and anticipate risks in operating metal structures and oilfield equipment. They develop cost-efficient concepts for metrological supervision of equipment use and condition, reducing costs through measurement complexes, standards, and automated systems for testing and chemical, metallographic, and mechanical analysis of products and raw materials in compliance with GOST, API 11B, TU, and other industry standards.",
+      "column3": "A unified organization bringing together thousands of international and Russian specialists: analysts, engineers, auditors, system administrators, technologists, mechanics, designers, certified project managers, and lawyers with deep expertise in mechanical engineering, law, mathematics, analytics, physics, and engineering."
+    },
+    "fullCycle": {
+      "title": "Full-cycle production facility",
+      "paragraph": "JSC Ocher Machine-Building Plant is one of the oldest industrial enterprises in the Urals. The plant combines in-house production capacity, engineering expertise, and quality control to deliver products demanded by the oil and gas, construction, and industrial sectors.\n\nOMZ manufactures equipment and components for companies that value reliability, compliance with standards, stable deliveries, and the ability to produce items to specific technical requirements.",
+      "imageAlt": "Oilfield equipment shop production line"
+    },
+    "capabilities": {
+      "title": "Production capabilities",
+      "subtitle": "Modern equipment for precise and stable production"
+    }
+  },
+  "vacancies": {
+    "breadcrumb": "Vacancies",
+    "title": "Current vacancies",
+    "salary": "salary",
+    "salaryFrom": "from",
+    "apply": "apply",
+    "noCategories": "There are no open vacancy categories in the selected direction yet.",
+    "noInCategory": "There are no open vacancies in this category yet.",
+    "categoryAria": "{title} — go to vacancies",
+    "vacancyAria": "{title} — go to vacancy",
+    "typeNav": {
+      "scrollBack": "Scroll vacancy types back",
+      "scrollForward": "Scroll vacancy types forward"
+    },
+    "detail": {
+      "salary": "Salary: {value}",
+      "schedule": "Schedule: {value}",
+      "experience": "Experience: {value}",
+      "location": "Location: {value}"
+    },
+    "application": {
+      "title": "Apply for vacancy",
+      "vacancy": "Vacancy",
+      "category": "Category",
+      "namePlaceholder": "Full name",
+      "phonePlaceholder": "Phone",
+      "aboutPlaceholder": "Write a few words about yourself and your experience",
+      "resumeHint": "If you have a resume, please attach it to your application.",
+      "resumeMaxSize": "Size up to 5 MB",
+      "chooseFile": "Choose file",
+      "consentPrefix": "I agree to the transfer and",
+      "consentProcessing": "processing of personal data",
+      "consentMiddle": "in accordance with the",
+      "consentPolicy": "Privacy Policy",
+      "submit": "submit application",
+      "submitting": "sending…",
+      "imageAlt": "OMZ employee at work"
+    }
+  },
+  "news": {
+    "breadcrumb": "News",
+    "title": "News",
+    "allNews": "all news",
+    "emptyCategory": "There are no published news items in the selected category yet.",
+    "categoryNav": {
+      "scrollBack": "Scroll categories back",
+      "scrollForward": "Scroll categories forward"
+    },
+    "carousel": {
+      "prev": "Previous news item",
+      "next": "Next news item"
+    }
+  },
+  "services": {
+    "breadcrumb": "Services",
+    "delivery": {
+      "breadcrumb": "Delivery",
+      "title": "delivery is provided by OMZ transport",
+      "truckAlt": "Truck with OMZ logo",
+      "paragraphs": {
+        "p1": {
+          "part1": "Products manufactured at the plant can be received by the customer ",
+          "part2": "by rail or by road.",
+          "part3": " OMZ ships most products by rail: ",
+          "part4": "open wagons, flatcars, and containers",
+          "part5": " (from 3 to 20 tons depending on order volume)."
+        },
+        "p2": {
+          "part1": "Rail shipments are made from a junction station,",
+          "part2": " located 23 km from Ocher. ",
+          "part3": "OMZ has its own siding at the station with a loading/unloading area and a gantry crane,",
+          "part4": " with a lifting capacity of 10 tons."
+        }
+      },
+      "notice": {
+        "part1": "For shipping finished products to customers that do not fit standard schemes, ",
+        "part2": "OMZ is ready to develop and approve the required documentation with the railway administration."
+      }
+    }
+  },
+  "production": {
+    "breadcrumb": "Production",
+    "equipmentTitle": "Equipment fleet",
+    "heroStats": {
+      "nav": "Metrics navigation",
+      "prev": "Previous metric",
+      "next": "Next metric",
+      "metal": {
+        "area": {
+          "title": "13,425 SQ.M.",
+          "description": "Total workshop area"
+        },
+        "capacity": {
+          "title": "900 TONS/MONTH",
+          "description": "Workshop production capacity"
+        },
+        "crane": {
+          "title": "8 CRANES",
+          "description": "Overhead cranes up to 10 tons"
+        }
+      },
+      "oilfield": {
+        "pipes": {
+          "title": "1 MLN PCS/YEAR",
+          "description": "Pump rod production"
+        },
+        "factory": {
+          "title": "300+ SPECIALISTS",
+          "description": "In the oilfield equipment workshop"
+        },
+        "cycle": {
+          "title": "FULL CYCLE",
+          "description": "From blanks to testing and marking"
+        }
+      },
+      "building": {
+        "formwork": {
+          "title": "FORMWORK",
+          "description": "Screws, locks, braces, and props"
+        },
+        "stock": {
+          "title": "WAREHOUSE",
+          "description": "Standing stock of popular items"
+        },
+        "custom": {
+          "title": "ON ORDER",
+          "description": "Standard and custom drawings"
+        }
+      }
+    },
+    "stock": {
+      "prev": "Previous item",
+      "next": "Next item"
+    },
+    "advantages": {
+      "prev": "Previous advantage",
+      "next": "Next advantage"
+    },
+    "pageTitles": {
+      "metal-structures": {
+        "title": "Metal structures workshop",
+        "shortTitle": "Metal structures"
+      },
+      "oilfield-equipment": {
+        "title": "Oilfield equipment workshop",
+        "shortTitle": "Oilfield equipment"
+      },
+      "building-structures": {
+        "title": "Building structures workshop",
+        "shortTitle": "Building structures"
+      }
+    },
+    "defaultAdvantages": {
+      "metal-structures": [
+        {
+          "title": "Advanced equipment",
+          "description": "The laser cutting system receives jobs directly from the process card and helps reduce metal consumption. Plasma cutting equipment, a pipe beveling machine for various diameters, and CNC bending and rolling machines enable high-precision part production."
+        },
+        {
+          "title": "Corrosion-resistant products",
+          "description": "Finished products are protected with modern coatings. Surfaces are prepared in shot-blasting chambers; paint materials are applied with airless spray units."
+        },
+        {
+          "title": "Non-destructive testing",
+          "description": "Certified equipment and specialists are used for weld inspection. Experience in manufacturing cooling towers, span structures, masts, process buildings, and pipeline supports."
+        },
+        {
+          "title": "Heavy-duty cranes",
+          "description": "The shop has 8 overhead cranes with a lifting capacity of up to 10 tonnes."
+        }
+      ],
+      "oilfield-equipment": [
+        {
+          "title": "Team of professionals",
+          "description": "More than 300 highly qualified specialists work in the shop. Production lines are configured for serial and custom manufacture of products of any complexity."
+        },
+        {
+          "title": "Full production cycle",
+          "description": "From blank preparation and heat treatment to testing and marking — all operations are performed on the plant site without third-party contractors."
+        },
+        {
+          "title": "API and GOST compliance",
+          "description": "Products undergo incoming, in-process, and acceptance inspection. Compliance documentation and certificates are provided to the customer."
+        },
+        {
+          "title": "Logistics and lead times",
+          "description": "A streamlined kitting and shipping system enables on-time delivery to remote fields."
+        }
+      ],
+      "building-structures": [
+        {
+          "title": "Wide product range",
+          "description": "Tie screws, wedge and toothed locks, nuts, braces, props, and formwork elements — all in one shop."
+        },
+        {
+          "title": "Warehouse stock",
+          "description": "We maintain a constant stock of fast-moving items for prompt shipment to construction sites."
+        },
+        {
+          "title": "Order flexibility",
+          "description": "Fabrication per standard and custom drawings; batch kitting tailored to the project."
+        },
+        {
+          "title": "Quality control",
+          "description": "Geometric dimensions and strength characteristics are checked on every batch."
+        }
+      ]
+    },
+    "workshops": {
+      "metal": {
+        "title": "Metal structures workshop",
+        "cta": "OMZ is a team that values work and helps people grow. Join us!"
+      }
+    }
+  },
+  "history": {
+    "breadcrumb": "Company history",
+    "title": "Company history",
+    "intro": "Discover the fascinating history of our plant, the path we have taken, and the stages of transformation we have gone through",
+    "timelineAria": "Company history years",
+    "illustrationAlt": "Illustration — {year}",
+    "placeholder": "Historical materials for {year} are being prepared for publication.",
+    "entry1757": {
+      "p1": "At the age of 24, Alexander Sergeyevich Stroganov took responsibility for developing the family business",
+      "p2": "By then, the heir had received an excellent education, including a serious course in studying industrial enterprises in Europe. In 1746, Alexander Sergeyevich's elder uncle, Alexander Grigoryevich Stroganov, built the Yugo-Kamsky plant",
+      "p3": "Drawing on this successful experience, Alexander Sergeyevich accepted manager Fyodor Vaulin's proposal and decided to build a plant in the forest-rich Ocher lands. The bloomery forge of the hammer mill required large amounts of charcoal. All that remained was to create a new factory town in a remote corner of the vast estate"
+    }
+  },
+  "certificates": {
+    "breadcrumb": "Certificates",
+    "title": "certificates",
+    "prev": "Previous certificate",
+    "next": "Next certificate",
+    "open": "Open {alt}",
+    "progress": "Certificate viewing progress",
+    "lightbox": {
+      "aria": "Certificate viewer",
+      "closeView": "Close viewer"
+    },
+    "items": {
+      "formworkEndAnchor": "End anchor for formwork",
+      "anchorsAndTies": "Anchors and ties",
+      "tieRodNuts": "Tie rod nuts",
+      "polishedRodClamps": "Polished rod clamps",
+      "wedgeAligningLocks": "Wedge aligning locks for formwork",
+      "railAligningLocks": "Rail aligning locks for formwork",
+      "pkHousing": "PC housing",
+      "nktmCoupling73": "NKT-M coupling 73",
+      "nktCouplingsGost31446": "NKT couplings GOST 31446",
+      "nktCouplingsGost633": "NKT couplings GOST 633",
+      "nktmCouplings": "NKT-M couplings",
+      "pipelineSupportsVankor": "Pipeline supports RN-Vankor",
+      "pipelineSupports": "Pipeline supports",
+      "utilityModelPatent": "Utility model patent",
+      "wellheadSeals": "Wellhead seals",
+      "tmkCertificate": "TMK certificate",
+      "qmsMetalStructures": "Quality management system (metal structures)",
+      "qmsOilfieldEquipment": "Quality management system (oilfield equipment)",
+      "automaticCouplingDevice": "Automatic coupling device",
+      "fiberglassPumpRod": "Fiberglass pump rod",
+      "pumpRodsAndCouplings": "Pump rods and couplings",
+      "pumpRodsCouplings": "Pump rods and couplings",
+      "polishedRodGost31825": "Polished rod GOST 31825",
+      "polishedRod": "Polished rod",
+      "rodHolder": "Rod holder",
+      "cornerStrippingPanel": "Stripping corner panel"
+    }
+  },
+  "procurement": {
+    "columns": {
+      "name": "Name",
+      "quantity": "Quantity"
+    },
+    "empty": "Table data has not been added yet."
+  },
+  "education": {
+    "columns": {
+      "code": "Code",
+      "name": "Name",
+      "info": "Information"
+    },
+    "empty": "Table data has not been added yet."
+  },
+  "laborProtection": {
+    "breadcrumb": "Occupational safety",
+    "title": "occupational safety",
+    "download": "download",
+    "empty": "Documents have not been added yet."
+  },
+  "safetyHotline": {
+    "breadcrumb": "Safety hotline",
+    "title": "safety line",
+    "sectionTitle": "Safety hotline",
+    "reviewNote": "Each report will be reviewed carefully; if warranted, an appropriate investigation will be conducted.",
+    "intro": {
+      "p1": {
+        "part1": "To maintain a high level of trust in JSC Ocher Machine-Building Plant,",
+        "part2": " compliance with international business ethics standards, and as part of the company's policy on detecting and preventing violations and abuses, including corruption and fraud, abuse of position and authority, and countering other offenses ",
+        "part3": "a SAFETY HOTLINE has been established at the company."
+      },
+      "p2": {
+        "part1": "By contacting the Safety Hotline, ",
+        "part2": "you can conveniently report, including anonymously, theft and embezzlement, fraud, bribery, commercial bribery, and conflicts of interest,",
+        "part3": " as well as other negative events that concern you."
+      }
+    },
+    "notices": {
+      "anonymity": "Full anonymity and confidentiality are guaranteed to those who provide information.",
+      "reward": "If reliable information helps prevent damage to the company, a monetary reward is provided under confidentiality terms."
+    }
+  },
+  "staticCategories": {
+    "oilfield": {
+      "title": "Oilfield equipment",
+      "subcategories": {
+        "pump-rods": "Pump rods",
+        "polished-rods": "Polished rods",
+        "rod-couplings": "Pump rod and polished rod couplings",
+        "centralizers": "Centralizers",
+        "rod-rotators": "SVR rod rotators",
+        "wellhead-seals": "Wellhead seals",
+        "polished-rod-clamps": "Polished rod clamps",
+        "auto-couplers": "Auto-couplers",
+        "hinged-pump-rods": "Hinged pump rods",
+        "tubing-couplings": "Tubing couplings",
+        "cable-protectors": "Cable protection covers (protectors)"
+      }
+    },
+    "metalwork": {
+      "title": "Metal structures",
+      "subcategories": {
+        "piles": "Piles",
+        "building-structures": "Building and facility metal structures",
+        "foundation-structures": "Grade beam, beam, and foundation metal structures",
+        "tanks": "Tanks and reservoirs",
+        "pipeline-supports": "Pipeline supports",
+        "road-supports": "Supports for road construction and reconstruction",
+        "sewer-wells": "Sewer manholes for various purposes",
+        "cooling-towers": "Cooling towers"
+      }
+    },
+    "construction": {
+      "title": "Construction structures",
+      "subcategories": {
+        "wedge-lock": "Wedge lock",
+        "tie-screw": "Formwork tie screw",
+        "end-anchor": "End anchor",
+        "three-wing-nut": "Three-wing tie nut",
+        "univilka": "Univilka",
+        "two-level-brace": "Two-level brace",
+        "rack-lock": "Leveling rack lock",
+        "corner-panel": "Stripping corner panel",
+        "zero-corner": "Zero corner",
+        "mounting-grip": "Mounting grip",
+        "leveling-beam": "Leveling beam",
+        "tripod": "Tripod",
+        "prop": "Prop",
+        "scaffold-pn6": "Scaffold PN-6"
+      }
+    },
+    "calibrated": {
+      "title": "Calibrated rolled stock",
+      "subcategories": {
+        "round-calibrated": "Round calibrated rolled stock"
+      }
+    }
+  },
+  "metadata": {
+    "site": {
+      "title": "Ocher Machine-Building Plant | OMZ",
+      "description": "JSC Ocher Machine-Building Plant — oilfield equipment, metal structures, and construction structures manufacturing"
+    },
+    "catalog": {
+      "baseTitle": "Product catalog | OMZ",
+      "baseDescription": "OMZ catalog of oilfield equipment, metal structures, and construction structures: specifications, availability, and prices.",
+      "searchTitle": "Search “{search}” — catalog | OMZ",
+      "pageTitle": "Product catalog — page {page} | OMZ",
+      "subcategoryTitle": "{subcategory} — {category} | OMZ",
+      "subcategoryPageTitle": "{subcategory} — page {page} | OMZ",
+      "subcategoryDescription": "{subcategory}: specifications, availability, and prices. Category “{category}”. Made by OMZ.",
+      "categoryTitle": "{category} — catalog | OMZ",
+      "categoryPageTitle": "{category} — page {page} | OMZ",
+      "categoryDescription": "{category}: specifications, availability, and prices. Made by OMZ.",
+      "categoryNotFound": "Category not found",
+      "categorySeo": {
+        "oilfield": "Pump rods, polished rods, couplings, centralizers, wellhead seals, and other oilfield equipment. Made by OMZ, GOST compliant.",
+        "metalwork": "Piles, building metal structures, grade beams, tanks, reservoirs, pipeline supports. Made to customer drawings.",
+        "construction": "Wedge locks, tie screws, anchors, univilkas, braces, props, and other construction structures for formwork. In-house production.",
+        "calibrated": "Round calibrated rolled stock of various diameters. High precision and quality standards compliance."
+      }
+    },
+    "product": {
+      "notFound": "Product not found | Ochko",
+      "buyDescription": "Buy {title} in the Ochko catalog"
+    },
+    "cart": {
+      "title": "Cart | Ochko",
+      "description": "Checkout"
+    },
+    "certificates": {
+      "title": "Certificates | Ochko",
+      "description": "Certificates and patents of Ocher Machine-Building Plant"
+    },
+    "history": {
+      "title": "Company history | Ochko",
+      "description": "History of the establishment and development of Ocher Machine-Building Plant"
+    },
+    "news": {
+      "title": "News | Ochko",
+      "description": "News and press center of Ocher Machine-Building Plant — production, partners, and team life",
+      "notFound": "News item not found",
+      "itemTitle": "{title} — news | Ochko"
+    },
+    "services": {
+      "title": "{title} | Ochko",
+      "description": "Services of JSC Ocher Machine-Building Plant — repair, cutting, testing, design, and delivery",
+      "delivery": {
+        "title": "Delivery | Ochko",
+        "description": "Delivery of products by JSC Ocher Machine-Building Plant — by rail and road"
+      }
+    },
+    "products": {
+      "title": "Products | Ochko",
+      "description": "Products of Ocher Machine-Building Plant — oilfield equipment, metal structures, construction structures, calibrated rolled stock"
+    },
+    "about": {
+      "title": "{title} | OMZ",
+      "description": "JSC Ocher Machine-Building Plant — oilfield equipment, metal structures, and construction structures manufacturing"
+    },
+    "vacancies": {
+      "title": "Vacancies | Ochko",
+      "description": "Vacancies at Ocher Machine-Building Plant — join a team of professionals",
+      "notFound": "Vacancy not found",
+      "categoryNotFound": "Category not found",
+      "itemTitle": "{title} — vacancies | Ochko",
+      "categoryTitle": "{title} — vacancies | Ochko"
+    },
+    "procurement": {
+      "title": "{title} | Ochko",
+      "description": "Procurement at Ocher Machine-Building Plant — list of materials and needs"
+    },
+    "education": {
+      "title": "Educational organization information | Ochko",
+      "description": "Educational organization information of JSC Ocher Machine-Building Plant"
+    },
+    "laborProtection": {
+      "title": "Occupational safety | Ochko",
+      "description": "Occupational safety documents of JSC Ocher Machine-Building Plant"
+    },
+    "safetyHotline": {
+      "title": "Safety hotline | Ochko",
+      "description": "Safety hotline of JSC Ocher Machine-Building Plant — report violations anonymously"
+    },
+    "production": {
+      "metal-structures": {
+        "title": "Metal structures workshop | OMZ",
+        "description": "Metal structures workshop at JSC Ocher Machine-Building Plant — laser and plasma cutting, welding, anti-corrosion treatment, and quality control"
+      },
+      "oilfield-equipment": {
+        "title": "Oilfield equipment workshop | OMZ",
+        "description": "Oilfield equipment workshop at JSC Ocher Machine-Building Plant — pump rods, polished rods, couplings, and related products"
+      },
+      "building-structures": {
+        "title": "Building structures workshop | OMZ",
+        "description": "Building structures workshop at JSC Ocher Machine-Building Plant — formwork, tie screws, locks, braces, and construction metal products"
+      }
+    }
+  },
+  "validation": {
+    "order": {
+      "nameRequired": "Please enter your name",
+      "phoneInvalid": "Please enter a valid phone number",
+      "paymentRequired": "Select a payment method",
+      "cartEmpty": "Cart is empty",
+      "submitFailed": "Could not place the order. Please try again later."
+    },
+    "vacancy": {
+      "vacancyRequired": "No vacancy specified for application",
+      "nameRequired": "Please enter your full name",
+      "phoneInvalid": "Please enter a valid phone number",
+      "aboutRequired": "Tell us a little about yourself",
+      "consentRequired": "Consent to data processing is required",
+      "resumeTooLarge": "Resume size must not exceed 5 MB",
+      "resumeFormat": "Allowed resume formats: PDF, DOC, DOCX, RTF",
+      "notFound": "Vacancy not found or already closed",
+      "submitFailed": "Could not submit application. Please try again later."
+    }
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "ariaLabel": "Выбор языка",
+    "ru": "Russian",
+    "en": "English",
+    "zh": "Chinese"
+  }
+}

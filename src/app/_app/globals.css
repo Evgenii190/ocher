@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-tt-lakes);
+  --color-ring: var(--ring);
+  --color-border: var(--border);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.5);
+  --radius-2xl: calc(var(--radius) * 1.75);
+  --radius-3xl: calc(var(--radius) * 2);
+  --radius-4xl: calc(var(--radius) * 2.5);
+  --breakpoint-2xl: 90.25rem;
+  /* Text sizes */
+  --text-display: clamp(1.75rem, 1.125rem + 2.5vw, 3.375rem); /* 54px → 28px @ ~400px */
+  --text-display--line-height: 1;
+  --text-title: clamp(1.5rem, 0.875rem + 2vw, 2.5rem); /* 40px->24px */
+  --text-title--line-height: 1;
+  --text-subtitle: clamp(1.25rem, 0.75rem + 1.5vw, 2rem); /* 32px->16px */
+  --text-subtitle--line-height: 1;
+  --text-body-lg: clamp(1rem, 0.875rem + 0.5vw, 1.25rem); /* 20px->12px */
+  --text-body-lg--line-height: 1.4;
+  --text-body: clamp(0.875rem, 0.8rem + 0.35vw, 1rem); /* 16px->14px */
+  --text-body--line-height: 1.5;
+  --text-small: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem); /* 14px->12px */
+  --text-small--line-height: 1.4;
+  --text-micro: clamp(0.625rem, 0.575rem + 0.2vw, 0.75rem); /* 12px->10px */
+  --text-micro--line-height: 1.3;
+  --text-table-page: clamp(1.25rem, 1.05rem + 0.75vw, 1.6875rem); /* ~27px → 20px @ ~400px */
+  --text-table-page--line-height: 1.2;
+  --text-table-section: clamp(1.125rem, 1rem + 0.5vw, 1.5rem); /* 24px → 18px @ ~400px */
+  --text-table-section--line-height: 1.2;
+  /* Spacing */
+  --spacing-section: clamp(3rem, 1.75rem + 5vw, 6.25rem); /* 100px → 48px @ ~400px */
+  --spacing-heading: clamp(2.5rem, 1.73rem + 3.08vw, 4.5rem); /* 72px → 40px @ ~400px */
+  --spacing-content: clamp(1.5rem, 1.115rem + 1.54vw, 2.5rem); /* 40px → 24px @ ~400px */
+  /* History slide */
+  --animate-history-forward: history-slide-forward 0.5s
+    cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-history-backward: history-slide-backward 0.5s
+    cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-history-fade-up: history-fade-up 0.45s
+    cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.2046 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.5976 0.1909 26.91);
+  --primary-foreground: oklch(1 0 0);
+  --muted: oklch(0.6211 0.019 229.2);
+  --border: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+}
+
+@keyframes history-slide-forward {
+  from {
+    opacity: 0;
+    transform: translate3d(2rem, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes history-slide-backward {
+  from {
+    opacity: 0;
+    transform: translate3d(-2rem, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes history-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0.75rem, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground text-body;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .history-slide-motion {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

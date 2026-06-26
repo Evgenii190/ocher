@@ -1,0 +1,8 @@
+<svg width="67" height="50" viewBox="0 0 67 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="badgeShadow" x="-8%" y="-8%" width="116%" height="124%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#A6A6A6" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <path d="M0 0H67L49.5 50H0V0Z" fill="white" filter="url(#badgeShadow)"/>
+</svg>

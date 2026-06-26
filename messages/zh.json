@@ -1,0 +1,954 @@
+{
+  "common": {
+    "home": "首页",
+    "logoAlt": "标志",
+    "omzAlt": "OMZ",
+    "readMore": "了解更多",
+    "readMoreAboutWorkshop": "关于车间",
+    "goToCatalog": "进入目录",
+    "call": "致电",
+    "all": "全部",
+    "loading": "加载中…",
+    "showMore": "显示更多",
+    "download": "下载",
+    "clear": "清除",
+    "from": "从",
+    "to": "到",
+    "parameter": "参数",
+    "document": "文档",
+    "noImage": "无图片",
+    "factoryAlt": "工厂",
+    "videoProductionAlt": "生产视频",
+    "aria": {
+      "breadcrumbs": "面包屑导航",
+      "mainNav": "主导航",
+      "call": "致电",
+      "writeEmail": "发送邮件",
+      "search": "搜索",
+      "close": "关闭",
+      "openMenu": "打开菜单",
+      "closeMenu": "关闭菜单",
+      "prevSlide": "上一张幻灯片",
+      "nextSlide": "下一张幻灯片",
+      "slideNav": "幻灯片导航",
+      "prevPhoto": "上一张照片",
+      "nextPhoto": "下一张照片",
+      "photoN": "照片 {n}",
+      "removeFromCart": "从购物车移除",
+      "decreaseQty": "减少数量",
+      "increaseQty": "增加数量",
+      "attachResume": "附加简历",
+      "removeFile": "删除文件"
+    },
+    "plural": {
+      "product": "{count, plural, other {# 件商品}}",
+      "productInCart": "{count, plural, other {# 件商品}} 在购物车中"
+    },
+    "units": {
+      "mm": "mm",
+      "cm": "cm",
+      "m": "m",
+      "kg": "kg",
+      "t": "t"
+    },
+    "availability": {
+      "inStock": "现货",
+      "onOrder": "预订"
+    },
+    "availabilityLabel": "库存",
+    "article": "货号：",
+    "priceOnRequest": "价格面议",
+    "priceOnRequestUpper": "价格面议",
+    "cost": "价格",
+    "addToCart": "加入购物车",
+    "workingHoursShort": "彼尔姆 · 周一至周五 9:00–18:00"
+  },
+  "nav": {
+    "company": {
+      "label": "公司",
+      "ariaLabel": "「公司」栏目"
+    },
+    "products": {
+      "label": "产品",
+      "ariaLabel": "「产品」栏目"
+    },
+    "production": {
+      "label": "生产",
+      "ariaLabel": "「生产」栏目"
+    },
+    "services": {
+      "label": "服务",
+      "ariaLabel": "「服务」栏目"
+    },
+    "news": "新闻",
+    "contacts": "联系方式",
+    "catalogParts": "配件目录",
+    "goToCatalog": "进入目录",
+    "companySections": {
+      "about": {
+        "title": "关于我们",
+        "href": "/about"
+      },
+      "history": "历史",
+      "certificates": "证书",
+      "partners": "合作伙伴",
+      "vacancies": "招聘",
+      "procurement": {
+        "title": "采购",
+        "href": "/procurement"
+      },
+      "safetyHotline": "安全热线",
+      "education": "教育机构信息",
+      "laborProtection": "劳动保护"
+    },
+    "productionLinks": {
+      "oilfield": "石油开采设备车间",
+      "metal": "金属结构车间",
+      "building": "建筑结构车间"
+    },
+    "servicesLinks": {
+      "pumpRodsRepair": "抽油杆维修",
+      "laserCutting": "激光金属切割",
+      "calibratedRound": "校准圆钢生产",
+      "laboratoryTesting": "实验室检测",
+      "designDocumentation": "结构设计文件开发",
+      "delivery": "配送"
+    },
+    "megaMenu": {
+      "company": "公司",
+      "production": "生产",
+      "services": "服务"
+    },
+    "mobileMenu": {
+      "title": "导航菜单",
+      "searchTitle": "搜索设备",
+      "searchSubtitle": "查找产品和服务",
+      "cart": "购物车",
+      "cartEmpty": "暂时为空",
+      "cartItems": "商品：{count}",
+      "cartAria": "购物车，商品：{count}",
+      "cartAriaEmpty": "购物车",
+      "languageTitle": "网站语言"
+    },
+    "cartAria": "购物车，商品：{count}",
+    "cartAriaEmpty": "购物车"
+  },
+  "footer": {
+    "site": "网站",
+    "catalog": "产品目录",
+    "contacts": "联系方式",
+    "email": "电子邮件",
+    "emailHint": "发送邮件和项目文件给我们，我们将乐意回复",
+    "workingHours": "工作时间",
+    "social": "通过社交媒体联系我们",
+    "commercial": "商业合作",
+    "copyright": "版权所有 © 2025。复制时必须注明 Ocher.ru 链接",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "links": {
+      "about": "关于我们",
+      "certificates": "证书",
+      "history": "历史",
+      "partners": "合作伙伴",
+      "procurement": "采购",
+      "vacancies": "招聘",
+      "elevator": "电梯井模板",
+      "wall": "墙模板",
+      "floor": "楼板模板",
+      "clamps": "管夹",
+      "screw": "对拉螺丝",
+      "parts": "模板配件"
+    },
+    "socialLabels": {
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "gmail": "Gmail"
+    }
+  },
+  "search": {
+    "placeholder": "搜索",
+    "placeholderExtended": "搜索设备、服务…",
+    "placeholderEquipment": "搜索设备",
+    "title": "站内搜索",
+    "description": "输入关键词搜索网站",
+    "hints": {
+      "startTyping": "在上方输入框中开始输入以查看建议",
+      "popular": "热门搜索",
+      "sections": "网站栏目"
+    },
+    "popularQueries": {
+      "wallFormwork": "墙模板",
+      "clamps": "管夹",
+      "tieScrew": "对拉螺丝",
+      "parts": "配件"
+    },
+    "siteSections": {
+      "catalog": "产品目录",
+      "certificates": "证书",
+      "history": "公司历史",
+      "vacancies": "招聘"
+    }
+  },
+  "home": {
+    "hero": {
+      "bgAlt": "主背景图",
+      "titleMobileLine1": "奥切尔",
+      "titleMobileLine2": "机械",
+      "titleMobileLine3": "制造",
+      "titleDesktop": "机械制造",
+      "titleSuffix": "工厂",
+      "tagline": "建设未来，传承传统"
+    },
+    "about": {
+      "title": "关于工厂"
+    },
+    "factoryFacts": {
+      "title": "OMZ 数据与事实",
+      "prev": "上一个数据",
+      "next": "下一个数据",
+      "items": {
+        "area": {
+          "title": "45,000 平方米",
+          "description": "生产车间总面积"
+        },
+        "staff": {
+          "title": "800 人以上",
+          "description": "企业员工"
+        },
+        "countries": {
+          "title": "8 个国家",
+          "description": "产品供应地理范围"
+        },
+        "directions": {
+          "title": "4 个生产方向",
+          "description": "核心生产方向"
+        }
+      }
+    },
+    "factorySlider": {
+      "prev": "上一个车间",
+      "next": "下一个车间",
+      "nav": "车间导航",
+      "workshops": {
+        "oilfield": {
+          "title": "石油开采设备车间",
+          "alt": "石油开采设备车间"
+        },
+        "metal": {
+          "title": "金属结构车间",
+          "alt": "金属结构车间"
+        },
+        "building": {
+          "title": "建筑结构车间",
+          "alt": "建筑结构车间"
+        }
+      }
+    },
+    "catalog": {
+      "titleLine1": "目录",
+      "titleLine2": "产品",
+      "scrollBack": "向左滚动类别",
+      "scrollForward": "向右滚动类别",
+      "prevSubcategory": "上一个子类别",
+      "nextSubcategory": "下一个子类别"
+    },
+    "partners": {
+      "title": "我们的合作伙伴",
+      "prev": "上一个合作伙伴",
+      "next": "下一个合作伙伴"
+    },
+    "pressCenter": {
+      "title": "新闻",
+      "allNews": "全部新闻"
+    },
+    "deliveryGeography": {
+      "title": "供应地理",
+      "mapAria": "OMZ 供应国家地图",
+      "regionsTitle": "OMZ 业务所在国家和地区",
+      "countriesPanelAria": "供应国家",
+      "countriesHeading": "供应国家",
+      "stats": {
+        "countries": [
+          "国家",
+          "供应"
+        ],
+        "regions": [
+          "地区",
+          "存在"
+        ],
+        "customers": [
+          "工业",
+          "客户"
+        ]
+      },
+      "description": {
+        "line1": "OMZ 为工业企业供应设备和零部件",
+        "line2": "在俄罗斯及海外提供稳定供应和技术支持。"
+      },
+      "countries": {
+        "russia": "俄罗斯",
+        "kazakhstan": "哈萨克斯坦",
+        "belarus": "白俄罗斯",
+        "india": "印度",
+        "brazil": "巴西",
+        "argentina": "阿根廷",
+        "venezuela": "委内瑞拉",
+        "usa": "美国"
+      }
+    }
+  },
+  "catalog": {
+    "title": "目录",
+    "titleFull": "产品目录",
+    "emptySeed": "目录为空。运行 npm run seed 填充数据",
+    "notFoundSearch": "未找到符合您搜索的内容",
+    "notFoundFilters": "未找到符合所选筛选条件的内容",
+    "allCatalog": "全部目录",
+    "selectCategory": "选择类别",
+    "selectAll": "全选",
+    "deselectAll": "取消全选",
+    "goTo": "前往",
+    "characteristics": "规格",
+    "resetFilters": "重置筛选",
+    "sort": {
+      "label": "排序",
+      "popularity": "按热门",
+      "titleAsc": "按字母 A–Z",
+      "titleDesc": "按字母 Z–A",
+      "priceAsc": "价格从低到高",
+      "priceDesc": "价格从高到低"
+    },
+    "pagination": {
+      "showMore": "显示更多",
+      "aria": "目录分页",
+      "prev": "上一页",
+      "next": "下一页"
+    },
+    "product": {
+      "tabs": {
+        "specs": "规格",
+        "description": "描述",
+        "docs": "文档"
+      },
+      "specsEmpty": "暂无规格参数。",
+      "descriptionEmpty": "商品描述尚未添加。",
+      "documents": {
+        "fallback": "证书和技术文档可在证书栏目获取或向经理索取。",
+        "goToCertificates": "前往证书"
+      },
+      "promo": {
+        "lifetime": "终身使用寿命",
+        "lifetimeLink": "所有配件",
+        "buyParts": "购买配件",
+        "salesOffice": "在销售办公室",
+        "questions": "有疑问？",
+        "consult": "我们将为您解答"
+      },
+      "goToCatalogAria": "{title} — 前往目录"
+    },
+    "categoryCard": {
+      "goToCatalog": "进入目录"
+    }
+  },
+  "cart": {
+    "breadcrumb": "购物车",
+    "title": "购物车",
+    "titleOrderCompleted": "订单已提交",
+    "eyebrowCheckout": "结账",
+    "eyebrowDone": "完成",
+    "updating": "正在更新商品",
+    "discount": "折扣金额",
+    "total": "合计：",
+    "onRequestNote": "部分商品价格为面议。经理在处理订单时将确认其价格。",
+    "empty": {
+      "eyebrow": "暂时为空",
+      "title": "购物车中没有商品",
+      "description": "在目录中选择设备，添加商品，在线或通过经理下单",
+      "perks": {
+        "warranty": "配件保修",
+        "delivery": "全俄配送",
+        "manager": "下单经理协助"
+      }
+    },
+    "checkout": {
+      "contactTitle": "请输入联系信息",
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "phone": "电话",
+      "phonePlaceholder": "+7 (___) ___-__-__",
+      "address": "配送地址",
+      "addressPlaceholder": "配送地址",
+      "comment": "订单备注",
+      "commentPlaceholder": "订单备注",
+      "paymentTitle": "选择支付方式",
+      "payment": {
+        "cardOffice": "办公室刷卡支付",
+        "cashStore": "门店现金支付"
+      },
+      "submit": "提交订单",
+      "submitting": "处理中…",
+      "emptyCart": "购物车为空"
+    },
+    "success": {
+      "eyebrow": "感谢您的订单",
+      "title": "订单已提交",
+      "description": "您的订单已收到。经理将与您联系确认并核实详情。"
+    }
+  },
+  "products": {
+    "breadcrumb": "产品",
+    "intro": "奥切尔机械制造厂专注于石油开采设备和金属结构领域关键工业的设备与零部件制造。产品销往俄罗斯、独联体国家及海外，提供符合国际质量标准的产品。",
+    "outro": "奥切尔机械制造厂按 GOST 标准生产产品。所有产品均经过多重质量检验。每件产品都有助于提高生产现场的效率和安全性。",
+    "sections": {
+      "oilfield": {
+        "title": "石油开采设备",
+        "lead": "OMZ 提供石油开采设备制造的综合解决方案：",
+        "items": [
+          "Pump rods and couplings: the foundation for reliable pump equipment operation;",
+          "Centralizers and auto-couplers: ensure proper assembly and operation of all components;",
+          "Seals and rod rotators: effectively protect and control rod movement."
+        ]
+      },
+      "metalwork": {
+        "title": "金属结构",
+        "lead": "我们生产广泛应用于各领域的金属结构：",
+        "items": [
+          "Structures for buildings and facilities: from small elements to large-scale projects;",
+          "Supports and frames for pipelines: essential for infrastructure safety and durability;",
+          "Supports for construction and reconstruction of road sections;",
+          "Tanks and reservoirs."
+        ]
+      },
+      "formwork": {
+        "title": "模板配件",
+        "lead": "奥切尔机械制造厂生产的模板配件符合高质量和耐用性标准。",
+        "items": [
+          "End anchors and tie screws: create strong connections between formwork elements, improving overall system reliability;",
+          "Three-wing nuts, wedge and rack locks: strengthen connections between structural components, ensuring stability and reliability during use;",
+          "Corner panels and reinforced univilkas for props: increase stability and strength of formwork structures for long-term use;",
+          "Two-level braces and stripping corners;",
+          "Zero corner and leveling beam."
+        ]
+      }
+    }
+  },
+  "about": {
+    "breadcrumb": "关于我们",
+    "hero": {
+      "title": "ABOUT OMZ",
+      "tagline": "JSC Ocher Machine-Building Plant — more than two and a half centuries of industrial history and modern production technologies",
+      "bgAlt": "「关于我们」页面背景图"
+    },
+    "intro": {
+      "imageAlt": "奥切尔机械制造厂生产能力",
+      "leadBefore": "奥切尔机械制造厂",
+      "leadAfter": " — one of the oldest industrial enterprises in the Urals, focused on foreign economic activity for trading, construction, and oilfield organizations. We support small, medium, and large businesses through reliable production of metal structures, oilfield equipment, and components.",
+      "column2": "Specialists at Ocher Machine-Building Plant are always ready to study and solve tasks of any complexity. They closely monitor innovative developments and anticipate risks in operating metal structures and oilfield equipment. They develop cost-efficient concepts for metrological supervision of equipment use and condition, reducing costs through measurement complexes, standards, and automated systems for testing and chemical, metallographic, and mechanical analysis of products and raw materials in compliance with GOST, API 11B, TU, and other industry standards.",
+      "column3": "A unified organization bringing together thousands of international and Russian specialists: analysts, engineers, auditors, system administrators, technologists, mechanics, designers, certified project managers, and lawyers with deep expertise in mechanical engineering, law, mathematics, analytics, physics, and engineering."
+    },
+    "fullCycle": {
+      "title": "Full-cycle production facility",
+      "paragraph": "JSC Ocher Machine-Building Plant is one of the oldest industrial enterprises in the Urals. The plant combines in-house production capacity, engineering expertise, and quality control to deliver products demanded by the oil and gas, construction, and industrial sectors.\n\nOMZ manufactures equipment and components for companies that value reliability, compliance with standards, stable deliveries, and the ability to produce items to specific technical requirements.",
+      "imageAlt": "石油开采设备车间生产线"
+    },
+    "capabilities": {
+      "title": "Production capabilities",
+      "subtitle": "Modern equipment for precise and stable production"
+    }
+  },
+  "vacancies": {
+    "breadcrumb": "招聘",
+    "title": "最新招聘",
+    "salary": "薪资",
+    "salaryFrom": "从",
+    "apply": "申请",
+    "noCategories": "所选方向暂无开放的职位类别。",
+    "noInCategory": "该类别暂无开放职位。",
+    "categoryAria": "{title} — 前往招聘",
+    "vacancyAria": "{title} — 前往职位",
+    "typeNav": {
+      "scrollBack": "向左滚动职位类型",
+      "scrollForward": "向右滚动职位类型"
+    },
+    "detail": {
+      "salary": "薪资：{value}",
+      "schedule": "工作时间：{value}",
+      "experience": "经验：{value}",
+      "location": "地点：{value}"
+    },
+    "application": {
+      "title": "申请职位",
+      "vacancy": "职位",
+      "category": "类别",
+      "namePlaceholder": "姓名",
+      "phonePlaceholder": "电话",
+      "aboutPlaceholder": "写几句话介绍您自己和您的经验",
+      "resumeHint": "如有简历，请随申请一并附上。",
+      "resumeMaxSize": "大小不超过 5 MB",
+      "chooseFile": "选择文件",
+      "consentPrefix": "我同意传输并",
+      "consentProcessing": "处理个人数据",
+      "consentMiddle": "依照",
+      "consentPolicy": "隐私政策",
+      "submit": "提交申请",
+      "submitting": "发送中…",
+      "imageAlt": "OMZ 员工在工作"
+    }
+  },
+  "news": {
+    "breadcrumb": "新闻",
+    "title": "新闻",
+    "allNews": "全部新闻",
+    "emptyCategory": "所选类别暂无已发布的新闻。",
+    "categoryNav": {
+      "scrollBack": "向左滚动类别",
+      "scrollForward": "向右滚动类别"
+    },
+    "carousel": {
+      "prev": "上一条新闻",
+      "next": "下一条新闻"
+    }
+  },
+  "services": {
+    "breadcrumb": "服务",
+    "delivery": {
+      "breadcrumb": "配送",
+      "title": "由 OMZ 运输部门配送",
+      "truckAlt": "带有 OMZ 标志的卡车",
+      "paragraphs": {
+        "p1": {
+          "part1": "客户可通过",
+          "part2": "铁路或公路接收工厂生产的产品。",
+          "part3": " OMZ 大部分产品通过铁路运输：",
+          "part4": "敞车、平车和集装箱",
+          "part5": "（根据订单量从 3 到 20 吨）。"
+        },
+        "p2": {
+          "part1": "铁路运输从枢纽站发货，",
+          "part2": " 距奥切尔 23 公里。",
+          "part3": "OMZ 在车站拥有专用支线，设有装卸区和门式起重机，",
+          "part4": " 起重能力 10 吨。"
+        }
+      },
+      "notice": {
+        "part1": "对于不符合标准方案的成品运输，",
+        "part2": "OMZ 愿意与铁路管理部门共同制定并审批所需文件。"
+      }
+    }
+  },
+  "production": {
+    "breadcrumb": "生产",
+    "equipmentTitle": "设备园区",
+    "heroStats": {
+      "nav": "指标导航",
+      "prev": "上一个指标",
+      "next": "下一个指标",
+      "metal": {
+        "area": {
+          "title": "13,425 平方米",
+          "description": "车间总面积"
+        },
+        "capacity": {
+          "title": "900 吨/月",
+          "description": "车间生产能力"
+        },
+        "crane": {
+          "title": "8 台起重机",
+          "description": "起重能力达 10 吨的桥式起重机"
+        }
+      },
+      "oilfield": {
+        "pipes": {
+          "title": "100 万件/年",
+          "description": "抽油杆生产"
+        },
+        "factory": {
+          "title": "300+ 名专家",
+          "description": "在石油开采设备车间"
+        },
+        "cycle": {
+          "title": "全周期",
+          "description": "从毛坯到检测和标记"
+        }
+      },
+      "building": {
+        "formwork": {
+          "title": "模板",
+          "description": "螺丝、锁具、斜撑和支撑"
+        },
+        "stock": {
+          "title": "仓库",
+          "description": "常用产品常备库存"
+        },
+        "custom": {
+          "title": "定制",
+          "description": "标准及定制图纸"
+        }
+      }
+    },
+    "stock": {
+      "prev": "上一项",
+      "next": "下一项"
+    },
+    "advantages": {
+      "prev": "上一个优势",
+      "next": "下一个优势"
+    },
+    "pageTitles": {
+      "metal-structures": {
+        "title": "金属结构车间",
+        "shortTitle": "金属结构"
+      },
+      "oilfield-equipment": {
+        "title": "石油开采设备车间",
+        "shortTitle": "石油开采设备"
+      },
+      "building-structures": {
+        "title": "建筑结构车间",
+        "shortTitle": "建筑结构"
+      }
+    },
+    "defaultAdvantages": {
+      "metal-structures": [
+        {
+          "title": "先进设备",
+          "description": "激光切割设备可直接接收工艺卡任务，有助于降低钢材消耗。等离子切割设备、多种管径去毛刺机床以及数控折弯和卷板设备，可高精度生产各类零件。"
+        },
+        {
+          "title": "耐腐蚀产品",
+          "description": "成品采用现代涂层进行防腐保护。表面在抛丸室中处理，涂料由无气喷涂设备施加。"
+        },
+        {
+          "title": "无损检测",
+          "description": "采用认证设备和专业人员检测焊缝。具备冷却塔、跨间结构、桅杆、工艺厂房和管道支架的制造经验。"
+        },
+        {
+          "title": "重型起重机",
+          "description": "车间安装8台起重量达10吨的桥式起重机。"
+        }
+      ],
+      "oilfield-equipment": [
+        {
+          "title": "专业团队",
+          "description": "车间拥有300余名高技能专业人员。生产线可配置为批量或定制生产任意复杂度的产品。"
+        },
+        {
+          "title": "完整生产周期",
+          "description": "从坯料和热处理到试验和标记，所有工序均在厂区完成，无需外包。"
+        },
+        {
+          "title": "符合 API 和 GOST",
+          "description": "产品经进货、工序和出厂检验。向客户提供符合性文件和证书。"
+        },
+        {
+          "title": "物流与交期",
+          "description": "完善的配货和发运体系可确保向偏远油田按时交货。"
+        }
+      ],
+      "building-structures": [
+        {
+          "title": "品种齐全",
+          "description": "对拉螺杆、楔形锁和棘轮锁、螺母、斜撑、支柱及模板元件——同一车间内一应俱全。"
+        },
+        {
+          "title": "仓库库存",
+          "description": "常备畅销品种，可快速发运至施工现场。"
+        },
+        {
+          "title": "订单灵活",
+          "description": "按标准图和定制图加工，按项目配套批次。"
+        },
+        {
+          "title": "质量控制",
+          "description": "每批产品均检验几何尺寸和强度特性。"
+        }
+      ]
+    },
+    "workshops": {
+      "metal": {
+        "title": "金属结构车间",
+        "cta": "OMZ 是一个重视劳动、助力成长的团队。加入我们！"
+      }
+    }
+  },
+  "history": {
+    "breadcrumb": "公司历史",
+    "title": "公司历史",
+    "intro": "了解我们工厂引人入胜的历史、走过的道路以及经历的转型阶段",
+    "timelineAria": "公司历史年份",
+    "illustrationAlt": "插图 — {year} 年",
+    "placeholder": "{year} 年的历史资料正在准备发布。",
+    "entry1757": {
+      "p1": "24 岁时，亚历山大·谢尔盖耶维奇·斯特罗加诺夫承担起发展家族事业的责任",
+      "p2": "此时继承人已接受良好教育，包括系统学习欧洲工业企业。1746 年，亚历山大·谢尔盖耶维奇的伯父亚历山大·格里戈里耶维奇·斯特罗加诺夫建造了南卡姆斯克工厂",
+      "p3": "借鉴这一成功经验，亚历山大·谢尔盖耶维奇接受了管理员费奥多尔·沃ulin 的建议，决定在森林丰富的奥切尔地区建厂。锻锤厂的炼铁炉需要大量木炭。接下来只需在这片广阔领地的偏远角落建立一座新的工厂城镇"
+    }
+  },
+  "certificates": {
+    "breadcrumb": "证书",
+    "title": "证书",
+    "prev": "上一张证书",
+    "next": "下一张证书",
+    "open": "打开 {alt}",
+    "progress": "证书浏览进度",
+    "lightbox": {
+      "aria": "证书查看器",
+      "closeView": "关闭查看器"
+    },
+    "items": {
+      "formworkEndAnchor": "End anchor for formwork",
+      "anchorsAndTies": "Anchors and ties",
+      "tieRodNuts": "Tie rod nuts",
+      "polishedRodClamps": "抛光杆夹具",
+      "wedgeAligningLocks": "Wedge aligning locks for formwork",
+      "railAligningLocks": "Rail aligning locks for formwork",
+      "pkHousing": "PC housing",
+      "nktmCoupling73": "NKT-M coupling 73",
+      "nktCouplingsGost31446": "NKT couplings GOST 31446",
+      "nktCouplingsGost633": "NKT couplings GOST 633",
+      "nktmCouplings": "NKT-M couplings",
+      "pipelineSupportsVankor": "Pipeline supports RN-Vankor",
+      "pipelineSupports": "管道支架",
+      "utilityModelPatent": "Utility model patent",
+      "wellheadSeals": "井口密封件",
+      "tmkCertificate": "TMK certificate",
+      "qmsMetalStructures": "Quality management system (metal structures)",
+      "qmsOilfieldEquipment": "Quality management system (oilfield equipment)",
+      "automaticCouplingDevice": "Automatic coupling device",
+      "fiberglassPumpRod": "Fiberglass pump rod",
+      "pumpRodsAndCouplings": "Pump rods and couplings",
+      "pumpRodsCouplings": "Pump rods and couplings",
+      "polishedRodGost31825": "Polished rod GOST 31825",
+      "polishedRod": "Polished rod",
+      "rodHolder": "Rod holder",
+      "cornerStrippingPanel": "拆模角板"
+    }
+  },
+  "procurement": {
+    "columns": {
+      "name": "姓名",
+      "quantity": "数量"
+    },
+    "empty": "表格数据尚未添加。"
+  },
+  "education": {
+    "columns": {
+      "code": "代码",
+      "name": "姓名",
+      "info": "信息"
+    },
+    "empty": "表格数据尚未添加。"
+  },
+  "laborProtection": {
+    "breadcrumb": "劳动保护",
+    "title": "劳动保护",
+    "download": "下载",
+    "empty": "文档尚未添加。"
+  },
+  "safetyHotline": {
+    "breadcrumb": "安全热线",
+    "title": "安全热线",
+    "sectionTitle": "安全热线",
+    "reviewNote": "每份报告都将认真审查；如有依据，将开展相应调查。",
+    "intro": {
+      "p1": {
+        "part1": "为维持对奥切尔机械制造厂的高度信任，",
+        "part2": " 遵守国际商业道德标准，并作为企业发现和预防各类违规及滥用行为（包括腐败、欺诈、滥用职权等）政策的一部分 ",
+        "part3": "公司在企业内部设立了「安全热线」。"
+      },
+      "p2": {
+        "part1": "通过安全热线，",
+        "part2": "您可以方便地（包括匿名）举报盗窃、侵吞、欺诈、贿赂、商业贿赂和利益冲突，",
+        "part3": " 以及其他令您担忧的负面事件。"
+      }
+    },
+    "notices": {
+      "anonymity": "向提供信息者保证完全匿名和保密。",
+      "reward": "若可靠信息有助于防止企业受损，将在保密条件下提供金钱奖励。"
+    }
+  },
+  "staticCategories": {
+    "oilfield": {
+      "title": "石油开采设备",
+      "subcategories": {
+        "pump-rods": "抽油杆",
+        "polished-rods": "抛光杆",
+        "rod-couplings": "抽油杆和抛光杆接箍",
+        "centralizers": "扶正器",
+        "rod-rotators": "SVR 抽油杆旋转器",
+        "wellhead-seals": "井口密封件",
+        "polished-rod-clamps": "抛光杆夹具",
+        "auto-couplers": "自动耦合器",
+        "hinged-pump-rods": "铰接抽油杆",
+        "tubing-couplings": "油管接箍",
+        "cable-protectors": "电缆保护罩（保护器）"
+      }
+    },
+    "metalwork": {
+      "title": "金属结构",
+      "subcategories": {
+        "piles": "桩基",
+        "building-structures": "建筑和设施金属结构",
+        "foundation-structures": "承台、梁和基础金属结构",
+        "tanks": "储罐和容器",
+        "pipeline-supports": "管道支架",
+        "road-supports": "道路建设和改造支架",
+        "sewer-wells": "各类用途的污水检查井",
+        "cooling-towers": "冷却塔"
+      }
+    },
+    "construction": {
+      "title": "建筑结构",
+      "subcategories": {
+        "wedge-lock": "楔形锁",
+        "tie-screw": "模板对拉螺丝",
+        "end-anchor": "端部锚固",
+        "three-wing-nut": "三翼对拉螺母",
+        "univilka": "万能连接件",
+        "two-level-brace": "双层斜撑",
+        "rack-lock": "调平齿条锁",
+        "corner-panel": "拆模角板",
+        "zero-corner": "零角",
+        "mounting-grip": "安装夹具",
+        "leveling-beam": "调平梁",
+        "tripod": "三脚架",
+        "prop": "支撑",
+        "scaffold-pn6": "脚手架 PN-6"
+      }
+    },
+    "calibrated": {
+      "title": "校准轧材",
+      "subcategories": {
+        "round-calibrated": "圆形校准轧材"
+      }
+    }
+  },
+  "metadata": {
+    "site": {
+      "title": "奥切尔机械制造厂 | OMZ",
+      "description": "奥切尔机械制造厂 — 石油开采设备、金属结构和建筑结构制造"
+    },
+    "catalog": {
+      "baseTitle": "产品目录 | OMZ",
+      "baseDescription": "OMZ 石油开采设备、金属结构和建筑结构目录：规格、库存和价格。",
+      "searchTitle": "搜索「{search}」— 目录 | OMZ",
+      "pageTitle": "产品目录 — 第 {page} 页 | OMZ",
+      "subcategoryTitle": "{subcategory} — {category} | OMZ",
+      "subcategoryPageTitle": "{subcategory} — 第 {page} 页 | OMZ",
+      "subcategoryDescription": "{subcategory}：规格、库存和价格。类别「{category}」。OMZ 制造。",
+      "categoryTitle": "{category} — 目录 | OMZ",
+      "categoryPageTitle": "{category} — 第 {page} 页 | OMZ",
+      "categoryDescription": "{category}：规格、库存和价格。OMZ 制造。",
+      "categoryNotFound": "未找到类别",
+      "categorySeo": {
+        "oilfield": "抽油杆、抛光杆、接箍、扶正器、井口密封件及其他石油开采设备。OMZ 制造，符合 GOST 标准。",
+        "metalwork": "桩基、建筑金属结构、承台、储罐、容器、管道支架。按客户图纸制造。",
+        "construction": "楔形锁、对拉螺丝、锚固、万能连接件、斜撑、支撑及其他模板建筑结构。自主生产。",
+        "calibrated": "各种直径的圆形校准轧材。高精度，符合质量标准。"
+      }
+    },
+    "product": {
+      "notFound": "未找到商品 | Ochko",
+      "buyDescription": "在 Ochko 目录购买 {title}"
+    },
+    "cart": {
+      "title": "购物车 | Ochko",
+      "description": "结账"
+    },
+    "certificates": {
+      "title": "证书 | Ochko",
+      "description": "奥切尔机械制造厂证书和专利"
+    },
+    "history": {
+      "title": "公司历史 | Ochko",
+      "description": "奥切尔机械制造厂的创建与发展历史"
+    },
+    "news": {
+      "title": "新闻 | Ochko",
+      "description": "奥切尔机械制造厂新闻与新闻中心 — 生产、合作伙伴和团队生活",
+      "notFound": "未找到新闻",
+      "itemTitle": "{title} — 新闻 | Ochko"
+    },
+    "services": {
+      "title": "{title} | Ochko",
+      "description": "奥切尔机械制造厂服务 — 维修、切割、检测、设计和配送",
+      "delivery": {
+        "title": "配送 | Ochko",
+        "description": "奥切尔机械制造厂产品配送 — 铁路和公路运输"
+      }
+    },
+    "products": {
+      "title": "产品 | Ochko",
+      "description": "奥切尔机械制造厂产品 — 石油开采设备、金属结构、建筑结构、校准轧材"
+    },
+    "about": {
+      "title": "{title} | OMZ",
+      "description": "奥切尔机械制造厂 — 石油开采设备、金属结构和建筑结构制造"
+    },
+    "vacancies": {
+      "title": "招聘 | Ochko",
+      "description": "奥切尔机械制造厂招聘 — 加入专业团队",
+      "notFound": "未找到职位",
+      "categoryNotFound": "未找到类别",
+      "itemTitle": "{title} — 招聘 | Ochko",
+      "categoryTitle": "{title} — 招聘 | Ochko"
+    },
+    "procurement": {
+      "title": "{title} | Ochko",
+      "description": "奥切尔机械制造厂采购 — 材料和需求清单"
+    },
+    "education": {
+      "title": "教育机构信息 | Ochko",
+      "description": "奥切尔机械制造厂教育机构信息"
+    },
+    "laborProtection": {
+      "title": "劳动保护 | Ochko",
+      "description": "奥切尔机械制造厂劳动保护文件"
+    },
+    "safetyHotline": {
+      "title": "安全热线 | Ochko",
+      "description": "奥切尔机械制造厂安全热线 — 匿名举报违规行为"
+    },
+    "production": {
+      "metal-structures": {
+        "title": "金属结构车间 | OMZ",
+        "description": "奥切尔机械制造厂金属结构车间 — 激光和等离子切割、焊接、防腐处理及质量控制"
+      },
+      "oilfield-equipment": {
+        "title": "石油开采设备车间 | OMZ",
+        "description": "奥切尔机械制造厂石油开采设备车间 — 抽油杆、光杆、接箍及相关产品"
+      },
+      "building-structures": {
+        "title": "建筑结构车间 | OMZ",
+        "description": "奥切尔机械制造厂建筑结构车间 — 模板、对拉螺杆、锁具、斜撑及建筑金属制品"
+      }
+    }
+  },
+  "validation": {
+    "order": {
+      "nameRequired": "请输入您的姓名",
+      "phoneInvalid": "请输入有效的电话号码",
+      "paymentRequired": "选择支付方式",
+      "cartEmpty": "购物车为空",
+      "submitFailed": "无法提交订单。请稍后再试。"
+    },
+    "vacancy": {
+      "vacancyRequired": "未指定申请职位",
+      "nameRequired": "请输入您的姓名",
+      "phoneInvalid": "请输入有效的电话号码",
+      "aboutRequired": "请简单介绍一下您自己",
+      "consentRequired": "需要同意数据处理",
+      "resumeTooLarge": "简历大小不得超过 5 MB",
+      "resumeFormat": "允许的简历格式：PDF、DOC、DOCX、RTF",
+      "notFound": "职位未找到或已关闭",
+      "submitFailed": "无法提交申请。请稍后再试。"
+    }
+  },
+  "localeSwitcher": {
+    "label": "语言",
+    "ariaLabel": "Выбор языка",
+    "ru": "俄语",
+    "en": "英语",
+    "zh": "中文"
+  }
+}

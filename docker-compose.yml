@@ -1,0 +1,53 @@
+# Единый compose-файл с переключением окружения через env (COMPOSE_PROFILES).
+#
+#   dev  -> поднимается только локальная Postgres. Само приложение запускается
+#           на хосте командой `bun run dev` и ходит в БД на localhost:5432.
+#   prod -> собирается образ Next.js (output: standalone) и подключается к
+#           удалённой БД из переменной DATABASE_URL. Локальная БД НЕ поднимается.
+#
+# Профиль выбирается переменной COMPOSE_PROFILES в .env:
+#   COMPOSE_PROFILES=dev   docker compose up        # только база
+#   COMPOSE_PROFILES=prod  docker compose up --build # приложение + remote db
+
+services:
+  # Локальная база только для разработки.
+  db:
+    image: postgres:17-alpine
+    container_name: ochko-db
+    profiles: ["dev"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-ochko}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - ochko-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-ochko}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Прод-приложение: собранный Next.js, подключается к удалённой БД.
+  app:
+    image: ochko-app
+    container_name: ochko-app
+    profiles: ["prod"]
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: ${DATABASE_URL:?set DATABASE_URL to the remote database in .env}
+      PAYLOAD_SECRET: ${PAYLOAD_SECRET:?set PAYLOAD_SECRET in .env}
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    ports:
+      - "${PORT:-3000}:3000"
+
+volumes:
+  ochko-pgdata:
