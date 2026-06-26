@@ -2,6 +2,10 @@ node_modules
 .next
 out
 build
+
+# Payload uploads — в prod монтируются с хоста (docker-compose volumes)
+media
+documents
 .git
 .gitignore
 .vercel

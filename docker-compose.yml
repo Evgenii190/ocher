@@ -32,6 +32,8 @@ services:
       retries: 5
 
   # Прод-приложение: собранный Next.js, подключается к удалённой БД.
+  # Файлы Payload (media, documents) лежат на хосте и монтируются в /app —
+  # в образ они не попадают, иначе после seed/загрузок в админке картинки 404.
   app:
     image: ochko-app
     container_name: ochko-app
@@ -48,6 +50,9 @@ services:
       HOSTNAME: 0.0.0.0
     ports:
       - "${PORT:-3000}:3000"
+    volumes:
+      - ./media:/app/media
+      - ./documents:/app/documents
 
 volumes:
   ochko-pgdata:
